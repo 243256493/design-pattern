@@ -14,6 +14,8 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <lombok.version>1.18.22</lombok.version>
         <junit.version>4.13.1</junit.version>
+        <logback-classic.version>1.3.5</logback-classic.version>
+        <slf4j-api.version>2.0.5</slf4j-api.version>
     </properties>
 
     <packaging>pom</packaging>
@@ -25,17 +27,31 @@
                 <artifactId>lombok</artifactId>
                 <version>${lombok.version}</version>
             </dependency>
+
             <dependency>
                 <groupId>junit</groupId>
                 <artifactId>junit</artifactId>
                 <version>${junit.version}</version>
                 <scope>test</scope>
             </dependency>
+
+            <dependency>
+                <groupId>ch.qos.logback</groupId>
+                <artifactId>logback-classic</artifactId>
+                <version>${logback-classic.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.slf4j</groupId>
+                <artifactId>slf4j-api</artifactId>
+                <version>${slf4j-api.version}</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 
     <modules>
-        <module>factory-pattern</module>
+        <module>simple-factory-pattern</module>
+        <module>iterator-pattern</module>
     </modules>
 
 </project>
