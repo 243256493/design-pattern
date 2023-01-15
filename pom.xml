@@ -35,7 +35,7 @@
     </dependencyManagement>
 
     <modules>
-        <module>factory-pattern</module>
+        <module>simple-factory-pattern</module>
     </modules>
 
 </project>
