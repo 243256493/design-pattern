@@ -9,7 +9,7 @@ import org.junit.Test;
  * @author yXg
  * @version V1.0
  **/
-public class OperationFactoryTest {
+public class SimpleFactoryTest {
 
     public static final double NUMBER_A = 10d;
 

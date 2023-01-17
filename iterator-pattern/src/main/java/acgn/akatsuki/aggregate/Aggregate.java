@@ -1,4 +1,4 @@
-package acgn.akatsuki.entity;
+package acgn.akatsuki.aggregate;
 
 import acgn.akatsuki.iterator.Iterator;
 
@@ -15,5 +15,5 @@ public interface Aggregate {
      *
      * @return 迭代器
      */
-    Iterator iterator();
+    Iterator<?> iterator();
 }

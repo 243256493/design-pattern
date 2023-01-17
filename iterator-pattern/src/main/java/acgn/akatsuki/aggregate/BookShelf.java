@@ -1,5 +1,7 @@
-package acgn.akatsuki.entity;
+package acgn.akatsuki.aggregate;
 
+import acgn.akatsuki.aggregate.Aggregate;
+import acgn.akatsuki.entity.Book;
 import acgn.akatsuki.iterator.BookShelfIterator;
 import acgn.akatsuki.iterator.Iterator;
 

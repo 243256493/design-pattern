@@ -1,7 +1,7 @@
 package acgn.akatsuki.iterator;
 
 import acgn.akatsuki.entity.Book;
-import acgn.akatsuki.entity.BookShelf;
+import acgn.akatsuki.aggregate.BookShelf;
 
 /**
  * 用于遍历书架的类

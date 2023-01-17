@@ -1,7 +1,8 @@
-package acgn.akatsuki.entity;
+package acgn.akatsuki.aggregate.impl;
 
-import acgn.akatsuki.iterator.BookShelfIterator;
-import acgn.akatsuki.iterator.Iterator;
+import acgn.akatsuki.aggregate.Aggregate;
+import acgn.akatsuki.aggregate.BookShelf;
+import acgn.akatsuki.entity.Book;
 
 /**
  * 表示书架的类

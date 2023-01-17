@@ -1,9 +1,9 @@
 package acgn.akatsuki;
 
-import acgn.akatsuki.entity.AdvancedBookShelf;
+import acgn.akatsuki.aggregate.impl.AdvancedBookShelf;
 import acgn.akatsuki.entity.Book;
-import acgn.akatsuki.entity.BookShelf;
-import acgn.akatsuki.entity.DeficiencyBookShelf;
+import acgn.akatsuki.aggregate.BookShelf;
+import acgn.akatsuki.aggregate.impl.DeficiencyBookShelf;
 import acgn.akatsuki.iterator.Iterator;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.Assert;
@@ -14,7 +14,7 @@ import org.junit.Test;
  * @version design-pattern V1.0
  **/
 @Slf4j
-public class IteratorTest {
+public class IteratorPatternTest {
 
     @Test
     public void deficiencyBookShelfIteratorTest() {
