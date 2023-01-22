@@ -13,7 +13,7 @@ import lombok.extern.slf4j.Slf4j;
 @Getter
 @NoArgsConstructor
 @AllArgsConstructor
-public class StringDisplay extends AbstractDisplay{
+public class StringDisplay extends AbstractDisplay {
 
     private String string;
 
