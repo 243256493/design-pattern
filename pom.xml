@@ -53,6 +53,7 @@
         <module>simple-factory-pattern</module>
         <module>iterator-pattern</module>
         <module>adapter-pattern</module>
+        <module>template-pattern</module>
     </modules>
 
 </project>
