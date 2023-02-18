@@ -9,8 +9,8 @@
     <version>1.0.0</version>
 
     <properties>
-        <maven.compiler.source>8</maven.compiler.source>
-        <maven.compiler.target>8</maven.compiler.target>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <lombok.version>1.18.22</lombok.version>
         <junit.version>4.13.1</junit.version>
@@ -54,6 +54,7 @@
         <module>iterator-pattern</module>
         <module>adapter-pattern</module>
         <module>template-pattern</module>
+        <module>factory-method-pattern</module>
     </modules>
 
 </project>
